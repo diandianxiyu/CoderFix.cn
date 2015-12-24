@@ -35,6 +35,7 @@
     <link href="{{ asset('assets/admin/layout3/css/custom.css')}} " type="text/css"  rel="stylesheet" >
     <!-- END THEME STYLES -->
     <link rel="shortcut icon" href="favicon.ico">
+    <link href="{{ asset('assets/global/css/csshake.min.css')}} " type="text/css"  rel="stylesheet" >
 </head>
 <!-- END HEAD -->
 <!-- BEGIN BODY -->
@@ -49,7 +50,7 @@
     <div class="page-header-top">
         <div class="container">
             <!-- BEGIN LOGO -->
-            <div class="page-logo">
+            <div class="page-logo shake">
                 <a href="index.html"><img src="{{ asset("assets/admin/layout3/img/logo-default.png")}} " alt="logo" class="logo-default"></a>
             </div>
             <!-- END LOGO -->
