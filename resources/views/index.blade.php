@@ -36,6 +36,7 @@
     <!-- END THEME STYLES -->
     <link rel="shortcut icon" href="favicon.ico">
     <link href="{{ asset('assets/global/css/csshake.min.css')}} " type="text/css"  rel="stylesheet" >
+    <link href="{{ asset('assets/global/css/animate.min.css')}} " type="text/css"  rel="stylesheet" >
 </head>
 <!-- END HEAD -->
 <!-- BEGIN BODY -->
@@ -2881,6 +2882,8 @@
         Index.init(); // init index page
         Tasks.initDashboardWidget(); // init tash dashboard widget
     });
+    $('.page-logo').addClass('animated bounce');
+
 </script>
 <!-- END JAVASCRIPTS -->
 </body>
