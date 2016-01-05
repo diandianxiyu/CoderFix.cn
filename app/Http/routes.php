@@ -12,7 +12,18 @@
 */
 
 Route::get('/', function () {
-    return view('index');
+    $func=__FUNCTION__;
+    $author="lixiaoyu";
+    $description="个人博客,PHP开发工程师";
+    $title="首页 | CoderFix.cn";
+
+
+    return view('index',[
+        'author'=>$author,
+        'title'=>$title,
+        'desc'=>$description,
+        'func'=>$func
+    ]);
 });
 
 /*
