@@ -80,19 +80,19 @@
                         </a>
                         <ul class="dropdown-menu pull-left">
                             <li >
-                                <a href="http://baidu.com">
+                                <a href="#mmark">
                                     <i class="icon-briefcase"></i>
-                                    项目1 </a>
+                                    萌Mark </a>
                             </li>
                             <li >
-                                <a href="http://baidu.com">
+                                <a href="#pico">
                                     <i class="icon-briefcase"></i>
-                                    项目2 </a>
+                                    PicoPico</a>
                             </li>
                             <li >
-                                <a href="http://baidu.com">
+                                <a href="#gmzb">
                                     <i class="icon-briefcase"></i>
-                                    项目3 </a>
+                                   购萌早报 </a>
                             </li>
 
                         </ul>
@@ -103,12 +103,12 @@
                         </a>
                         <ul class="dropdown-menu pull-left">
                             <li >
-                                <a href="/">
+                                <a href="http://tools.coderfix.cn/">
                                     <i class="icon-briefcase"></i>
                                     Http的Api调试工具 </a>
                             </li>
                             <li >
-                                <a href="/icon">
+                                <a href="http://tools.coderfix.cn/icon">
                                     <i class="icon-briefcase"></i>
                                     ico在线转换工具 </a>
                             </li>

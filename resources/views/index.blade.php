@@ -4,7 +4,7 @@
 <!-- BEGIN PAGE CONTAINER -->
 <div class="page-container">
     <!-- BEGIN PAGE HEAD -->
-    <div class="page-head hidden">
+    <div class="page-head ">
         <div class="container">
             <!-- BEGIN PAGE TITLE -->
             <div class="page-title">
@@ -21,273 +21,87 @@
     <!-- BEGIN PAGE CONTENT -->
     <div class="page-content">
         <div class="container">
-            <!-- BEGIN SAMPLE PORTLET CONFIGURATION MODAL FORM-->
-            <div class="modal fade" id="portlet-config" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
-                            <h4 class="modal-title">Modal title</h4>
-                        </div>
-                        <div class="modal-body">
-                            Widget settings form goes here
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn blue">Save changes</button>
-                            <button type="button" class="btn default" data-dismiss="modal">Close</button>
-                        </div>
-                    </div>
-                    <!-- /.modal-content -->
-                </div>
-                <!-- /.modal-dialog -->
-            </div>
-            <!-- /.modal -->
-            <!-- END SAMPLE PORTLET CONFIGURATION MODAL FORM-->
-            <!-- BEGIN PAGE BREADCRUMB -->
-            <ul class="page-breadcrumb breadcrumb hidden">
-                <li>
-                    <a href="#">Home</a><i class="fa fa-circle"></i>
-                </li>
-                <li>
-                    <a href="page_timeline.html">Pages</a>
-                    <i class="fa fa-circle"></i>
-                </li>
-                <li class="active">
-                    New Timeline
-                </li>
-            </ul>
-            <!-- END PAGE BREADCRUMB -->
+
             <!-- BEGIN PAGE CONTENT INNER -->
             <div class="portlet light">
                 <div class="portlet-body">
                     <div class="timeline">
                         <!-- TIMELINE ITEM -->
-                        <div class="timeline-item">
+                        <div class="timeline-item" id="gmzb">
                             <div class="timeline-badge">
-                                <img class="timeline-badge-userpic" src="../../assets/admin/pages/media/users/avatar80_1.jpg">
+                                <img class="timeline-badge-userpic" src="{{ asset("assets/global/img/src/ggzb_icon.jpeg")  }}">
+
                             </div>
                             <div class="timeline-body">
                                 <div class="timeline-body-arrow">
                                 </div>
                                 <div class="timeline-body-head">
                                     <div class="timeline-body-head-caption">
-                                        <a href="javascript:;" class="timeline-body-title font-blue-madison">Andres Iniesta</a>
-                                        <span class="timeline-body-time font-grey-cascade">Replied at 7:45 PM</span>
+                                        <span class="timeline-body-alerttitle font-blue-soft">产品开发 购萌早报</span>
+                                        <span class="timeline-body-time font-grey-cascade">2014.11.11</span>
                                     </div>
-                                    <div class="timeline-body-head-actions">
-                                        <div class="btn-group">
-                                            <button class="btn btn-circle green-haze btn-sm dropdown-toggle" type="button" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
-                                                Actions <i class="fa fa-angle-down"></i>
-                                            </button>
-                                            <ul class="dropdown-menu pull-right" role="menu">
-                                                <li>
-                                                    <a href="javascript:;">Action </a>
-                                                </li>
-                                                <li>
-                                                    <a href="javascript:;">Another action </a>
-                                                </li>
-                                                <li>
-                                                    <a href="javascript:;">Something else here </a>
-                                                </li>
-                                                <li class="divider">
-                                                </li>
-                                                <li>
-                                                    <a href="javascript:;">Separated link </a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
+
                                 </div>
                                 <div class="timeline-body-content">
-									<span class="font-grey-cascade">
-									Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. </span>
+                                    <span class="label label-warning"> Yii 2.0 </span>&nbsp;
+                                    <span class="label label-warning"> 阿里百川 </span>&nbsp;
+                                    <span class="label label-warning"> web与app通信协议 </span>&nbsp;
                                 </div>
+
                             </div>
                         </div>
                         <!-- END TIMELINE ITEM -->
                         <!-- TIMELINE ITEM -->
-                        <div class="timeline-item">
+                        <div class="timeline-item" id="pico">
                             <div class="timeline-badge">
-                                <img class="timeline-badge-userpic" src="../../assets/admin/pages/media/users/avatar80_2.jpg">
+                                <img class="timeline-badge-userpic" src="{{ asset("assets/global/img/src/picopico_icon.jpg")  }}">
+
                             </div>
                             <div class="timeline-body">
                                 <div class="timeline-body-arrow">
                                 </div>
                                 <div class="timeline-body-head">
                                     <div class="timeline-body-head-caption">
-                                        <a href="javascript:;" class="timeline-body-title font-blue-madison">Vanessa Bond</a>
-                                        <span class="timeline-body-time font-grey-cascade">Posted new post at 5:10 PM</span>
+                                        <span class="timeline-body-alerttitle font-green-meadow">产品开发 PicoPico</span>
+                                        <span class="timeline-body-time font-grey-cascade">2014.11.11</span>
                                     </div>
-                                    <div class="timeline-body-head-actions">
-                                    </div>
+
                                 </div>
                                 <div class="timeline-body-content">
-									<span class="font-grey-cascade">
-									<p>
-                                        <img class="timeline-body-img pull-right" src="../../assets/admin/pages/media/blog/4.jpg" alt="">
-                                        Caulie dandelion maize lentil collard greens radish arugula sweet pepper water spinach kombu courgette lettuce. Celery coriander bitterleaf epazote radicchio shallot winter purslane collard greens spring onion squash lentil. Artichoke salad bamboo shoot black-eyed pea brussels sprout garlic kohlrabi. coriander bitterleaf epazote radicchio shallot winter purslane collard.
-                                    </p>
-									<p>
-                                        Coriander bitterleaf epazote radicchio shallot winter purslane collard. Caulie dandelion maize lentil collard greens radish arugula sweet pepper water spinach kombu courgette lettuce. Celery coriander bitterleaf epazote radicchio shallot winter purslane collard greens spring onion squash lentil. Artichoke salad bamboo shoot black-eyed pea brussels sprout garlic kohlrabi.
-                                    </p>
-									<p>
-                                        <img class="timeline-body-img pull-left" src="../../assets/admin/pages/media/blog/6.jpg" alt=""> Caulie dandelion maize lentil collard greens radish arugula sweet pepper water spinach kombu courgette lettuce. Celery coriander bitterleaf epazote radicchio shallot winter purslane collard greens spring onion squash lentil. Artichoke salad bamboo shoot black-eyed pea brussels sprout garlic kohlrabi radicchio shallot winter purslane collard greens spring onion squash lentil.
-                                    </p>
-									<p>
-                                        Coriander bitterleaf epazote radicchio shallot winter purslane collard. Caulie dandelion maize lentil collard greens radish arugula sweet pepper water spinach kombu courgette lettuce. Celery coriander bitterleaf epazote radicchio shallot winter purslane collard greens spring onion squash lentil. Artichoke salad bamboo shoot black-eyed pea brussels sprout garlic kohlrabi.
-                                    </p>
-									</span>
+                                    <span class="label label-warning"> Yii 2.0 </span>&nbsp;
+                                    <span class="label label-warning"> LBS </span>&nbsp;
+                                    <span class="label label-warning"> 基于用户行为的推荐算法 </span>&nbsp;
                                 </div>
-                            </div>
-                        </div>
-                        <!-- END TIMELINE ITEM -->
-                        <!-- TIMELINE ITEM WITH GOOGLE MAP -->
-                        <div class="timeline-item">
-                            <div class="timeline-badge">
-                                <img class="timeline-badge-userpic" src="../../assets/admin/pages/media/users/avatar80_3.jpg">
-                            </div>
-                            <div class="timeline-body">
-                                <div class="timeline-body-arrow">
-                                </div>
-                                <div class="timeline-body-head">
-                                    <div class="timeline-body-head-caption">
-                                        <a href="javascript:;" class="timeline-body-title font-blue-madison">Carles Puyol</a>
-                                        <span class="timeline-body-time font-grey-cascade">Added office location at 2:50 PM</span>
-                                    </div>
-                                    <div class="timeline-body-head-actions">
-                                        <div class="btn-group">
-                                            <button class="btn btn-circle btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
-                                                Actions <i class="fa fa-angle-down"></i>
-                                            </button>
-                                            <ul class="dropdown-menu pull-right" role="menu">
-                                                <li>
-                                                    <a href="javascript:;">Action </a>
-                                                </li>
-                                                <li>
-                                                    <a href="javascript:;">Another action </a>
-                                                </li>
-                                                <li>
-                                                    <a href="javascript:;">Something else here </a>
-                                                </li>
-                                                <li class="divider">
-                                                </li>
-                                                <li>
-                                                    <a href="javascript:;">Separated link </a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="timeline-body-content">
-                                    <div id="gmap_polygons" class="gmaps">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- END TIMELINE ITEM WITH GOOGLE MAP -->
-                        <!-- TIMELINE ITEM -->
-                        <div class="timeline-item">
-                            <div class="timeline-badge">
-                                <div class="timeline-icon">
-                                    <i class="icon-user-following font-green-haze"></i>
-                                </div>
-                            </div>
-                            <div class="timeline-body">
-                                <div class="timeline-body-arrow">
-                                </div>
-                                <div class="timeline-body-head">
-                                    <div class="timeline-body-head-caption">
-                                        <span class="timeline-body-alerttitle font-red-intense">You have new follower</span>
-                                        <span class="timeline-body-time font-grey-cascade">at 11:00 PM</span>
-                                    </div>
-                                    <div class="timeline-body-head-actions">
-                                        <div class="btn-group">
-                                            <button class="btn btn-circle grey-salsa btn-sm dropdown-toggle" type="button" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
-                                                Actions <i class="fa fa-angle-down"></i>
-                                            </button>
-                                            <ul class="dropdown-menu pull-right" role="menu">
-                                                <li>
-                                                    <a href="javascript:;">Action </a>
-                                                </li>
-                                                <li>
-                                                    <a href="javascript:;">Another action </a>
-                                                </li>
-                                                <li>
-                                                    <a href="javascript:;">Something else here </a>
-                                                </li>
-                                                <li class="divider">
-                                                </li>
-                                                <li>
-                                                    <a href="javascript:;">Separated link </a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="timeline-body-content">
-									<span class="font-grey-cascade">
-									You have new follower <a href="javascript:;">Ivan Rakitic</a>
-									</span>
-                                </div>
+
                             </div>
                         </div>
                         <!-- END TIMELINE ITEM -->
                         <!-- TIMELINE ITEM -->
-                        <div class="timeline-item">
+                        <div class="timeline-item" id="mmark">
                             <div class="timeline-badge">
-                                <img class="timeline-badge-userpic" src="../../assets/admin/pages/media/users/avatar80_1.jpg">
+                                <div class="timeline-badge">
+                                    <img class="timeline-badge-userpic" src="{{ asset("assets/global/img/src/mmark_icon.jpeg")  }}">
+
+                                </div>
+
                             </div>
                             <div class="timeline-body">
                                 <div class="timeline-body-arrow">
                                 </div>
                                 <div class="timeline-body-head">
                                     <div class="timeline-body-head-caption">
-                                        <a href="javascript:;" class="timeline-body-title font-blue-madison">Andres Iniesta</a>
-                                        <span class="timeline-body-time font-grey-cascade">Replied at 7:45 PM</span>
+                                        <span class="timeline-body-alerttitle font-red-pink">产品开发 萌Mark</span>
+                                        <span class="timeline-body-time font-grey-cascade">2014.11.11</span>
                                     </div>
-                                    <div class="timeline-body-head-actions">
-                                    </div>
+
                                 </div>
                                 <div class="timeline-body-content">
-									<span class="font-grey-cascade">
-									Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. </span>
+                                    <span class="label label-warning"> Yii 1.1 </span>&nbsp;
+                                    <span class="label label-warning"> PHP扩展Yar </span>&nbsp;
+                                    <span class="label label-warning"> 第三方登录分享 </span>&nbsp;
+                                    <span class="label label-warning"> 基于RBAC的权限管理 </span>&nbsp;
                                 </div>
-                            </div>
-                        </div>
-                        <!-- END TIMELINE ITEM -->
-                        <!-- TIMELINE ITEM -->
-                        <div class="timeline-item">
-                            <div class="timeline-badge">
-                                <img class="timeline-badge-userpic img-circle" src="../../assets/admin/pages/media/users/avatar80_2.jpg">
-                            </div>
-                            <div class="timeline-body">
-                                <div class="timeline-body-arrow">
-                                </div>
-                                <div class="timeline-body-head">
-                                    <div class="timeline-body-head-caption">
-                                        <a href="javascript:;" class="timeline-body-title font-blue-madison">Vanessa Bond</a>
-                                        <span class="timeline-body-time font-grey-cascade">Posted new post at 5:10 PM</span>
-                                    </div>
-                                    <div class="timeline-body-head-actions">
-                                    </div>
-                                </div>
-                                <div class="timeline-body-content">
-									<span class="font-grey-cascade">
-									<p>
-                                        <img class="timeline-body-img pull-right" src="../../assets/admin/pages/media/blog/4.jpg" alt="">
-                                        Caulie dandelion maize lentil collard greens radish arugula sweet pepper water spinach kombu courgette lettuce. Celery coriander bitterleaf epazote radicchio shallot winter purslane collard greens spring onion squash lentil. Artichoke salad bamboo shoot black-eyed pea brussels sprout garlic kohlrabi. coriander bitterleaf epazote radicchio shallot winter purslane collard.
-                                    </p>
-									<p>
-                                        Coriander bitterleaf epazote radicchio shallot winter purslane collard. Caulie dandelion maize lentil collard greens radish arugula sweet pepper water spinach kombu courgette lettuce. Celery coriander bitterleaf epazote radicchio shallot winter purslane collard greens spring onion squash lentil. Artichoke salad bamboo shoot black-eyed pea brussels sprout garlic kohlrabi.
-                                    </p>
-									<p>
-                                        <img class="timeline-body-img pull-left" src="../../assets/admin/pages/media/blog/6.jpg" alt=""> Caulie dandelion maize lentil collard greens radish arugula sweet pepper water spinach kombu courgette lettuce. Celery coriander bitterleaf epazote radicchio shallot winter purslane collard greens spring onion squash lentil. Artichoke salad bamboo shoot black-eyed pea brussels sprout garlic kohlrabi radicchio shallot winter purslane collard greens spring onion squash lentil.
-                                    </p>
-									<p>
-                                        Coriander bitterleaf epazote radicchio shallot winter purslane collard. Caulie dandelion maize lentil collard greens radish arugula sweet pepper water spinach kombu courgette lettuce. Celery coriander bitterleaf epazote radicchio shallot winter purslane collard greens spring onion squash lentil. Artichoke salad bamboo shoot black-eyed pea brussels sprout garlic kohlrabi.
-                                    </p>
-									</span>
-                                </div>
+
                             </div>
                         </div>
                         <!-- END TIMELINE ITEM -->
@@ -295,7 +109,142 @@
                         <div class="timeline-item">
                             <div class="timeline-badge">
                                 <div class="timeline-icon">
-                                    <i class="icon-docs font-red-intense"></i>
+                                    <i class="icon-notebook font-yellow-saffron"></i>
+                                </div>
+
+                            </div>
+                            <div class="timeline-body">
+                                <div class="timeline-body-arrow">
+                                </div>
+                                <div class="timeline-body-head">
+                                    <div class="timeline-body-head-caption">
+                                        <span class="timeline-body-alerttitle font-yellow-saffron">正式就职 北京惊鱼科技有限公司</span>
+                                        <span class="timeline-body-time font-grey-cascade">2014.10 - 至今</span>
+                                    </div>
+
+                                </div>
+                                <div class="timeline-body-content">
+                                    <span class="label label-info"> 团队沟通 </span>&nbsp;
+                                    <span class="label label-info"> PHP开发组管理 </span>&nbsp;
+                                    <span class="label label-info"> 海外服务搭建 </span>&nbsp;
+                                    <span class="label label-info"> 技术选型 </span>&nbsp;
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- END TIMELINE ITEM -->
+                        <!-- TIMELINE ITEM -->
+                        <div class="timeline-item">
+                            <div class="timeline-badge">
+                                <div class="timeline-icon">
+                                    <i class="icon-notebook font-green-meadow"></i>
+                                </div>
+
+                            </div>
+                            <div class="timeline-body">
+                                <div class="timeline-body-arrow">
+                                </div>
+                                <div class="timeline-body-head">
+                                    <div class="timeline-body-head-caption">
+                                        <span class="timeline-body-alerttitle font-green-meadow">正式就职 天树梦想（北京）科技有限公司</span>
+                                        <span class="timeline-body-time font-grey-cascade">2014.6 - 2014.10</span>
+                                    </div>
+
+                                </div>
+                                <div class="timeline-body-content">
+                                    <span class="label label-info"> 完整项目上线更新维护 </span>&nbsp;
+                                    <span class="label label-info"> socket即时通讯 </span>&nbsp;
+                                    <span class="label label-info"> LBS算法 </span>&nbsp;
+                                    <span class="label label-info"> 类微博关系以及Feed系统开发 </span>&nbsp;
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- END TIMELINE ITEM -->
+                        <!-- TIMELINE ITEM -->
+                        <div class="timeline-item">
+                            <div class="timeline-badge">
+                                <img class="timeline-badge-userpic" src="{{ asset("assets/global/img/src/1_diandianxiyu.jpg")  }}">
+
+                            </div>
+                            <div class="timeline-body">
+                                <div class="timeline-body-arrow">
+                                </div>
+                                <div class="timeline-body-head">
+                                    <div class="timeline-body-head-caption">
+                                        <span class="timeline-body-alerttitle font-blue-soft">开始更新 CSDN技术博客</span>
+                                        <span class="timeline-body-time font-grey-cascade">2013.11.25</span>
+                                    </div>
+
+                                </div>
+                                <div class="timeline-body-content">
+                                    <span class="label label-success"> 分享技术点 </span> &nbsp;
+                                    <span class="label label-success"> 记录成长历程 </span> &nbsp;
+                                    <span class="label label-success"> 持续更新中 </span> &nbsp;
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- END TIMELINE ITEM -->
+                        <!-- TIMELINE ITEM -->
+                        <div class="timeline-item">
+                            <div class="timeline-badge">
+                                <img class="timeline-badge-userpic" src="{{ asset("assets/global/img/src/github_logo.png")  }}">
+
+                            </div>
+                            <div class="timeline-body">
+                                <div class="timeline-body-arrow">
+                                </div>
+                                <div class="timeline-body-head">
+                                    <div class="timeline-body-head-caption">
+                                        <span class="timeline-body-alerttitle font-blue-soft">加入 Github</span>
+                                        <span class="timeline-body-time font-grey-cascade">2013.10.24</span>
+                                    </div>
+
+                                </div>
+                                <div class="timeline-body-content">
+                                    <span class="label label-success">  学习开源精神 </span>&nbsp;
+                                    <span class="label label-success"> 分享工具类  </span>&nbsp;
+                                    <span class="label label-success"> 个人项目开源  </span>&nbsp;
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- END TIMELINE ITEM -->
+                        <!-- TIMELINE ITEM -->
+                        <div class="timeline-item">
+                            <div class="timeline-badge">
+                                <div class="timeline-icon">
+                                    <i class="icon-envelope-letter"></i>
+                                </div>
+
+                            </div>
+                            <div class="timeline-body">
+                                <div class="timeline-body-arrow">
+                                </div>
+                                <div class="timeline-body-head">
+                                    <div class="timeline-body-head-caption">
+                                        <span class="timeline-body-alerttitle font-blue-madison">实习 天树梦想（北京）科技有限公司</span>
+                                        <span class="timeline-body-time font-grey-cascade">2013.11 - 2014.6</span>
+                                    </div>
+
+                                </div>
+                                <div class="timeline-body-content">
+                                    <span class="label label-info"> 响应式设计 </span>&nbsp;
+                                    <span class="label label-info"> 需求分析 </span>&nbsp;
+                                    <span class="label label-info"> 数据库结构设计 </span>&nbsp;
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- END TIMELINE ITEM -->
+                        <!-- TIMELINE ITEM -->
+                        <div class="timeline-item">
+                            <div class="timeline-badge">
+                                <div class="timeline-icon">
+                                    <i class="icon-trophy font-red-intense"></i>
                                 </div>
                             </div>
                             <div class="timeline-body">
@@ -303,37 +252,32 @@
                                 </div>
                                 <div class="timeline-body-head">
                                     <div class="timeline-body-head-caption">
-                                        <span class="timeline-body-alerttitle font-green-haze">Server Report</span>
-                                        <span class="timeline-body-time font-grey-cascade">Yesterday at 11:00 PM</span>
+                                        <span class="timeline-body-alerttitle font-green-haze">就读于 河北工业职业技术学院</span>
+                                        <span class="timeline-body-time font-grey-cascade">2011 - 2014</span>
                                     </div>
                                     <div class="timeline-body-head-actions">
-                                        <div class="btn-group dropup">
-                                            <button class="btn btn-circle green-haze btn-sm dropdown-toggle" type="button" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
-                                                Actions <i class="fa fa-angle-down"></i>
-                                            </button>
-                                            <ul class="dropdown-menu pull-right" role="menu">
-                                                <li>
-                                                    <a href="javascript:;">Action </a>
-                                                </li>
-                                                <li>
-                                                    <a href="javascript:;">Another action </a>
-                                                </li>
-                                                <li>
-                                                    <a href="javascript:;">Something else here </a>
-                                                </li>
-                                                <li class="divider">
-                                                </li>
-                                                <li>
-                                                    <a href="javascript:;">Separated link </a>
-                                                </li>
-                                            </ul>
-                                        </div>
+
                                     </div>
                                 </div>
                                 <div class="timeline-body-content">
-									<span class="font-grey-cascade">
-									Lorem ipsum dolore sit amet <a href="javascript:;">Ispect</a>
-									</span>
+                                    <ul class="list-group">
+                                        <li class="list-group-item">
+                                            微博协会副会长
+                                        </li>
+                                        <li class="list-group-item">
+                                            动漫社社长
+                                        </li>
+                                        <li class="list-group-item">
+                                            计算机系E科技工作室早期成员
+                                        </li>
+                                        <li class="list-group-item ">
+                                            公益广告大赛一等奖
+                                        </li>
+                                        <li class="list-group-item ">
+                                            广播台机务组
+                                        </li>
+
+                                    </ul>
                                 </div>
                             </div>
                         </div>
