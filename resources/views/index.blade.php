@@ -63,7 +63,7 @@
                                 <div class="timeline-body-head">
                                     <div class="timeline-body-head-caption">
                                         <span class="timeline-body-alerttitle font-green-meadow">产品开发 PicoPico</span>
-                                        <span class="timeline-body-time font-grey-cascade">2015.31</span>
+                                        <span class="timeline-body-time font-grey-cascade">2015.3</span>
                                     </div>
 
                                 </div>
