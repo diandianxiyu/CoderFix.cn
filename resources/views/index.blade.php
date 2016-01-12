@@ -38,7 +38,7 @@
                                 <div class="timeline-body-head">
                                     <div class="timeline-body-head-caption">
                                         <span class="timeline-body-alerttitle font-blue-soft">产品开发 购萌早报</span>
-                                        <span class="timeline-body-time font-grey-cascade">2014.11.11</span>
+                                        <span class="timeline-body-time font-grey-cascade">2015.10</span>
                                     </div>
 
                                 </div>
@@ -63,7 +63,7 @@
                                 <div class="timeline-body-head">
                                     <div class="timeline-body-head-caption">
                                         <span class="timeline-body-alerttitle font-green-meadow">产品开发 PicoPico</span>
-                                        <span class="timeline-body-time font-grey-cascade">2014.11.11</span>
+                                        <span class="timeline-body-time font-grey-cascade">2015.31</span>
                                     </div>
 
                                 </div>
