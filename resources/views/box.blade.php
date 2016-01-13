@@ -112,6 +112,11 @@
                                     <i class="icon-briefcase"></i>
                                     ico在线转换工具 </a>
                             </li>
+                            <li >
+                                <a href="http://tools.coderfix.cn/play/times">
+                                    <i class="icon-briefcase"></i>
+                                    短视频播放次数查询 </a>
+                            </li>
 
                         </ul>
                     </li>
