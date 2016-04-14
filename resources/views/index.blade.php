@@ -27,6 +27,29 @@
                 <div class="portlet-body">
                     <div class="timeline">
                         <!-- TIMELINE ITEM -->
+                        <div class="timeline-item" id="bkzz">
+                            <div class="timeline-badge">
+                                <img class="timeline-badge-userpic" src="{{ asset("assets/global/img/src/bokezhuanjiamiddle.png")  }}">
+
+                            </div>
+                            <div class="timeline-body">
+                                <div class="timeline-body-arrow">
+                                </div>
+                                <div class="timeline-body-head">
+                                    <div class="timeline-body-head-caption">
+                                        <span class="timeline-body-alerttitle font-blue-soft">认证 CSDN博客专家</span>
+                                        <span class="timeline-body-time font-grey-cascade">2016.4</span>
+                                    </div>
+
+                                </div>
+                                <div class="timeline-body-content">
+                                    <span class="label label-info"> <a href="http://blog.csdn.net/diandianxiyu_geek" >点点细雨的技术博客</a> </span>&nbsp;
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- END TIMELINE ITEM -->
+                        <!-- TIMELINE ITEM -->
                         <div class="timeline-item" id="gmzb">
                             <div class="timeline-badge">
                                 <img class="timeline-badge-userpic" src="{{ asset("assets/global/img/src/ggzb_icon.jpeg")  }}">
