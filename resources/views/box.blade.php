@@ -92,7 +92,12 @@
                             <li >
                                 <a href="#gmzb">
                                     <i class="icon-briefcase"></i>
-                                   购萌早报 </a>
+                                    购萌早报 </a>
+                            </li>
+                            <li >
+                                <a href="#jingstars">
+                                    <i class="icon-briefcase"></i>
+                                    JingStars </a>
                             </li>
 
                         </ul>

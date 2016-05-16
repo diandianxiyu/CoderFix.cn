@@ -8,7 +8,7 @@
         <div class="container">
             <!-- BEGIN PAGE TITLE -->
             <div class="page-title">
-                <h1>首页 <small>成长时间线</small></h1>
+                <h1>时间节点 <small>事件/项目/经历</small></h1>
             </div>
             <!-- END PAGE TITLE -->
             <!-- BEGIN PAGE TOOLBAR -->
@@ -44,6 +44,31 @@
                                 </div>
                                 <div class="timeline-body-content">
                                     <span class="label label-info"> <a href="http://blog.csdn.net/diandianxiyu_geek" >点点细雨的技术博客</a> </span>&nbsp;
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- END TIMELINE ITEM -->
+                        <!-- TIMELINE ITEM -->
+                        <div class="timeline-item" id="jingstars">
+                            <div class="timeline-badge">
+                                <img class="timeline-badge-userpic" src="{{ asset("assets/global/img/src/jsic.png")  }}">
+
+                            </div>
+                            <div class="timeline-body">
+                                <div class="timeline-body-arrow">
+                                </div>
+                                <div class="timeline-body-head">
+                                    <div class="timeline-body-head-caption">
+                                        <span class="timeline-body-alerttitle font-purple-medium">产品开发 JingStars</span>
+                                        <span class="timeline-body-time font-grey-cascade">2016.1</span>
+                                    </div>
+
+                                </div>
+                                <div class="timeline-body-content">
+                                    <span class="label label-warning"> 自动化部署 </span>&nbsp;
+                                    <span class="label label-warning"> 订单交易 </span>&nbsp;
+                                    <span class="label label-warning"> 充值提现业务 </span>&nbsp;
                                 </div>
 
                             </div>
